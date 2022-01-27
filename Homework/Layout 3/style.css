@@ -7,20 +7,26 @@ header,footer{
     clear: both;
 }
 .first{
-    height: 110px;
-    width: 100%;
+    height: 300px;
+    width: 15%;
     border: 3px solid black;
     float: left;
 }
 .second{
     height: 300px;
-    width: 40%;
+    width: 55%;
     border: 3px solid black;
     float: left;
 }
 .third{
     height: 300px;
-    width: 60%;
+    width: 15%;
+    border: 3px solid black;
+    float: left;
+}
+.fourth{
+    height: 300px;
+    width: 15%;
     border: 3px solid black;
     float: left;
 }
