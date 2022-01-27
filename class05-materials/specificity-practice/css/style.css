@@ -14,3 +14,6 @@ html > body > h1#hi + section.top + section.middle + article.areDucksDinosaurs >
     color: lime !important;
 }
 /* Please select Rhino with the highest level of specificity possible */
+html > body > section.top > h2#rhino.africa.fourLegs{
+    color:cyan !important;
+}

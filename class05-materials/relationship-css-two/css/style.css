@@ -11,7 +11,6 @@ section > h2 + h2{
 section article > h2 + h2{
     color: gold;
 }
-
 /* Please keep Hufflepuff Gold and make ONLY Unicorn Gray  */
 section article > h2{
     color: gray;
