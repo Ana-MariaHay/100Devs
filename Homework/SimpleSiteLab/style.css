@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+
+}
+div {
+    border: 0.5rem outset green;
+    border-radius: 12px;
+    font: bold 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    outline-offset: 5rem;
+    background-color: rgb(8, 183, 241);
+    color: white;
+}
+nav{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+a{
+    color:green;
+    text-decoration: none;
+}
+.head2{
+    color:white;
+    text-decoration: none;   
+}
+a:hover {
+    color:greenyellow;
+} 
+h1{
+    text-align: center;
+}
+header{
+    height: 120px;
+    clear: both;
+}
+.first{
+    height: 180px;
+    width: 60%;
+    float: left;
+}
+.second{
+    height: 300px;
+    width: 40%;
+    float: right;
+}
+img{
+    height: 300px;
+    width: 40%;
+    float: right;
+}
+.third{
+    height: 180px;
+    width: 60%;
+    float: left;
+}
+footer{
+    height: 30px;
+    clear: both;
+}
