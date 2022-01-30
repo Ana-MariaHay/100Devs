@@ -1,0 +1,74 @@
+/* Put the coding below at the top of the CSS
+to make all of the stuff uniform
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+*/
+.simplea {
+    width: 500px;
+    margin: 20px auto;
+    border: solid blue 10px; 
+}
+.fancya {
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border-width: 10px;
+    border: solid blue 10px; 
+}
+#main {
+    max-width: 600px;
+    margin: 0 auto; 
+}
+.simpleb {
+    width: 500px;
+    margin: 20px auto;
+    border: solid blue 10px; 
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  .fancyb {
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border: solid blue 10px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .static {
+    position: static;
+  }
+  .relative2 {
+    position: relative;
+    top: -20px;
+    left: 20px;
+    background-color: rgb(228, 181, 181);
+
+    width: 500px;
+  }
+  .fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    background-color: rgb(176, 197, 142);
+  }
+  .relative {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(72, 103, 104);
+  }
+  .absolute {
+    position: absolute;
+    top: 120px;
+    right: 0;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(151, 143, 223);
+  }

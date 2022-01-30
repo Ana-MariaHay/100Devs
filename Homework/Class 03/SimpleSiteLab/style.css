@@ -36,12 +36,12 @@ header{
     height: 120px;
     clear: both;
 }
-.first{
+.firstp{
     height: 180px;
     width: 60%;
     float: left;
 }
-.second{
+.image{
     height: 300px;
     width: 40%;
     float: right;
@@ -51,7 +51,7 @@ img{
     width: 40%;
     float: right;
 }
-.third{
+.secondp{
     height: 180px;
     width: 60%;
     float: left;

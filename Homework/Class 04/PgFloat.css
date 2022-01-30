@@ -1,0 +1,26 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+nav {
+  float: left;
+  /*width: 200px;*/
+  width: 25%;
+  background-color: rgb(238, 136, 136);
+}
+/* use float:clear with section to make the sections go below the nav
+*/
+section {
+  /*width: 200px;*/
+  margin-left: 25%;
+  background-color: rgb(105, 160, 132);
+}
+footer {
+  height: 70px;
+  background-color: rgb(131, 159, 175);
+  width: 100%;
+}
+body {
+  background-color: rgb(80, 100, 90);
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Layout</title>
+    <link rel="stylesheet" href="TestLearnLayout4.css">
+</head>
+<body>
+    <div class="box">
+        I feel like i am floating
+    </div>
+    <section>
+        In this case, the section element is actually after the div. However, since the div is floated to the left, this is what happens: the text in the section is floated around the div and the section surrounds the whole thing. What if we wanted the section to actually appear after the floated element? 
+    </section>
+    <div class="box box1">
+        I feel like i am floating
+    </div>
+    <section class="after-box">
+        In this case, the section element is actually after the div and we wanted the section to actually appear after the floated element? 
+    </section>
+
+    <img src="/Users/macpro/Dropbox/WebDevelopment/100Devs/Homework/Class 04/logo.png" alt="picture of Leon" />
+    <div>
+        Uh oh... this image is taller than the element containing it, and it's floated, so it's overflowing outside of its container! 
+    </div>
+    <img src="/Users/macpro/Dropbox/WebDevelopment/100Devs/Homework/Class 04/logo.png" alt="picture of Leon" />
+    <div class="clearfix">
+        Uh oh... this image is taller than the element containing it, and it's floated, so it's overflowing outside of its container! 
+    </div>
+
+</body>
+</html>

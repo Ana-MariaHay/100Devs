@@ -1,0 +1,40 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+@media (min-width:600px) {
+  nav {
+    float: left;
+    width: 25%;
+    background-color: rgb(238, 136, 136);
+  }
+  section {
+    margin-left: 25%;
+    background-color: rgb(131, 159, 175);
+  }
+}
+@media (max-width:599px) {
+  nav li {
+    display: inline;
+    background-color: rgb(207, 223, 152);
+  }
+}
+/* nav {
+  float: left;
+  width: 25%;
+}
+section {
+  margin-left: 25%;
+  background-color: rgb(105, 160, 132);
+}
+*/
+footer {
+  height: 70px;
+  background-color: rgb(131, 159, 175);
+  width: 100%;
+}
+body {
+  background-color: rgb(80, 100, 90);
+}
+/* insted of 25% of width, width: 200px; can be used in both the nav and section element*/

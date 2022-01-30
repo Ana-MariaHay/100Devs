@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Layout</title>
+    <link rel="stylesheet" href="TestLearnLayout.css">
+</head>
+<body>
+
+    <div>
+        div is the standard block-level element.
+        A block-level element starts on a new line and
+        stretches out to the left and right as far as
+    <span> like this </span>
+        it can. Other common block-level elements are
+        p and form, and new in HTML5 are header, footer,
+        section, and more. 
+    </div>
+    <div id="main">
+        Using max-width instead of width in this situation will improve the browser's handling of small windows. This is important when making a site usable on mobile. Resize this page to check it out!
+        
+        By the way, max-width is supported by all major browsers including IE7+ so you shouldn't be afraid of using it. 
+    </div>
+
+    <div class="simplea">
+        I'm smaller...
+    </div>
+    <div class="fancya">
+        I'm bigger...
+    </div>
+    <div class="simpleb">
+        I'm the same size...
+    </div>
+    <div class="fancyb">
+        I'm the same size...
+    </div>
+    <div class="static">
+        static is the default value. An element with position: static; is not positioned in any special way. A static element is said to be not positioned and an element with its position set to anything else is said to be positioned. 
+        relative works the same way as static unless some other properties are added
+    </div>
+    <div class="relative2">
+        Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
+    </div>
+    <div class="fixed">
+        Hello! Don't pay attention to me yet.
+    </div>
+    <div class="relative">
+        This element is relatively-positioned. If this element was position: static; its absolutely-positioned child would escape and would be positioned relative to the document body. 
+        <div class="absolute">
+            This element is absolutely-positioned. It's positioned relative to its parent. 
+        </div>
+    </div>
+</body>
+</html>

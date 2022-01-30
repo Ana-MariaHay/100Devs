@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+
+}
+body {
+    border: 0.5rem outset green;
+    border-radius: 12px;
+    font: bold 18px/22px Helvetica;
+    margin: 1rem;
+    padding: 1rem;
+    outline-offset: 5rem;
+    background-color: rgb(8, 183, 241);
+    color: white;
+}
+nav{
+    text-align: center;
+    letter-spacing: .5px;
+}
+
+a{
+    color:green;
+    text-decoration: none;
+}
+a:hover {
+    color:greenyellow;
+}
+
+.head2{
+    color:white;
+    text-decoration: none;   
+}
+
+h1{
+    text-align: center;
+    font: bold 40px/50px Times;
+}
+header{
+    height: 155px;
+    clear: both;
+}
+
+img{
+    height: 335px;
+    width: auto;
+    float: right;
+}
+footer{
+    height: 10px;
+    clear: both;
+}
