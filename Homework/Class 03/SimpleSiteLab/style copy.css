@@ -5,7 +5,7 @@
 body {
     border: 0.5rem outset green;
     border-radius: 12px;
-    font: bold 18px/22px Helvetica;
+    font: 14px Helvetica;
     margin: 1rem;
     padding: 1rem;
     outline-offset: 5rem;
@@ -24,10 +24,13 @@ a{
 a:hover {
     color:greenyellow;
 }
-
+p::first-letter{
+    font-size: 30px;
+}
 .head2{
     color:white;
-    text-decoration: none;   
+    text-decoration: none;
+    margin-bottom: 5px;   
 }
 
 h1{
@@ -40,7 +43,7 @@ header{
 }
 
 img{
-    height: 335px;
+    height: 300px;
     width: auto;
     float: right;
 }
