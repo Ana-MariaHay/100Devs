@@ -34,3 +34,17 @@ footer{
         width: 100%;
     }
 }
+@media screen and (max-width: 600px) {
+    section{
+      background: green;
+    }
+}
+@media (min-width: 601px) and (max-width: 900px){
+    section{
+      background: blue;
+      width: 33.3333%;
+    }
+    .thiccOne{
+      display: none;
+    }
+}
