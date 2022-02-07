@@ -46,20 +46,32 @@ nav ul{
 nav form input{
   width: 100%;
 }
-main + section > section{
-  width: 33.3333%;
+
+main > section{
+  border: 0.1em white solid;
+  margin: 0.1em;
+  width: 49.5%;
+  height: 450px;
   float: left;
 }
-main > section{
-  width: 50%;
-  height: 500px;
-  float: left;
+main > section img{
+  width: 100%;
+  height: auto;
 }
 main section + section section{
   width: 50%;
-  height: 250px;
+  height: 225px;
   float: left;
-  border: 1px solid black;
+  border: 0.05em solid white;
+}
+main + section > section{
+  width: 33.3333%;
+  border: 0.05em solid white;
+  float: left;
+}
+main + section > section img{
+  width: 100%;
+  height: auto;
 }
 /******************************************
 /* ADDITIONAL STYLES
