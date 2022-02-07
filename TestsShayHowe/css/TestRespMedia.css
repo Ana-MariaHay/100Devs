@@ -1,0 +1,30 @@
+body {
+    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+    margin: 0;
+  }
+  h1 {
+    color: #9799a7;
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  figure {
+    height: 0;
+    margin: 0 0 24px 0;
+    padding-bottom: 56.25%; /* 16:9 */
+    position: relative;
+    width: 100%;
+  }
+  .figure-75 {
+    width: 75%;
+  }
+  .figure-50 {
+    width: 50%;
+  }
+  iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }

@@ -1,0 +1,52 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+/* Per Leon
+/* Clear fix hack
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+*/
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.box-set:before,
+.box-set:after {
+  content: "";
+  display: table;
+}
+.box-set:after {
+  clear: both;
+}
+.box-set {
+  *zoom: 1;
+  background: #eaeaed;
+}
+.box {
+  background: #2db34a;
+  float: left;
+  margin: 1.858736059%;
+  width: 29.615861214%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

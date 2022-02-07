@@ -1,0 +1,96 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT Fixed
+/*******************************************/
+/*
+.container {
+  background: #2db34a;
+  border: 2px solid #ff7b29;
+  width: 538px;
+  height: 538px;
+}
+section,
+aside {
+  background: #a690c2;
+  border: 2px solid #ff7b29;  
+  margin: 10px;
+}
+section {
+  background: #a690c2;
+  border: 2px solid #ff7b29;  
+  float: left;
+  width: 340px;
+}
+aside {
+  float: right;
+  width: 158px;
+  \*
+
+}/******************************************
+/* Flexible Grid
+/*******************************************/
+.container {
+  background: #2db34a;
+  border: 2px solid #ff7b29;
+  width: auto;
+  height: 538px;
+}
+section,
+aside {
+  background: #a690c2;
+  border: 2px solid #ff7b29;  
+  /* margin: 10px;*/
+  /*  10px ÷ 538px = .018587361 */
+  margin: 1.858736059%; 
+}
+section {
+  float: left;
+  /*width: 340px;*/
+  /* 340px ÷ 538px = .63197026 */
+  width: 63.197026%;
+}
+aside {
+  float: right;
+  /*width: 158px;*/
+  /* 158px ÷ 538px = .293680297 */
+  width: 29.3680297%;
+}
+@media all and (max-width: 650px) {
+    section, aside {
+
+      float: none;
+      width: auto;
+    }
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
