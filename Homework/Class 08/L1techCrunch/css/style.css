@@ -22,7 +22,9 @@
 /*******************************************/
 
 body {
-
+font-family: sans-serif;
+font-size: 16px;
+line-height:24px;
 }
 
 
@@ -31,14 +33,66 @@ body {
 /*******************************************/
 nav,main,aside{
   float: left;
-  width: 10%;
+  width: 15%;
 }
 main{
-  width: 50%;
+  width: 55%;
+}
+main img{
+  width: 100%;
+  height: auto;
 }
 aside{
-  width: 40%;
+  width: 30%;
+}
+li{
+  list-style-type: none;
+}
+aside li{
+  border-bottom: 0.05em solid black;
+}
+section{
+  float: right;
+  width: 86%;
+}
+section section{
+  padding-right: 2em;
+  width: 33%;
 }
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+nav a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+nav a:link {
+  color: #646960;
+}
+
+nav a:visited {
+  color: #437A16;
+}
+
+nav a:focus {
+  border-bottom: 1px solid;
+  background: #BAE498;
+}
+
+nav a:hover {
+  border-bottom: 1px solid;
+  background: #CDFEAA;
+}
+
+nav a:active {
+  background: #265301;
+  color: #CDFEAA;
+}
+.dimmed{
+  color: #646960;
+}
+.join{
+  color: orange; 
+}
