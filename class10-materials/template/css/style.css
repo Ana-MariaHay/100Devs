@@ -12,6 +12,9 @@
      line-height: 0;
      height: 0;
 }
+html {
+  font-size: 62.5%;
+}
 
 .clear {
 	clear: both;
@@ -40,3 +43,4 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+

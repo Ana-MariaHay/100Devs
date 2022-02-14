@@ -1,0 +1,148 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+/*html element font-size should set this to 62.5%
+/* so that the measure of 1rem=10px, 2rem=20 */
+html{
+  background-color: #eff0ee;
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+/******************************************
+/* LAYOUT
+/*******************************************/
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.main-nav {
+  display: flex;
+  border-radius: .3em;
+  padding: 1em;
+  font-family: sans-serif;
+}
+.main-nav ul,
+.main-nav ol{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex: 3;
+}
+.main-nav ol{
+  justify-content: center;
+}
+.main-nav ul{
+  justify-content: flex-end;
+}
+.main-nav li {
+  margin-right: 1em;
+}
+.main-nav > form {
+  display: flex;
+  justify-content: flex-end;
+  flex: 0.01;
+}
+.main-nav input {
+  flex: 0.01;
+}
+.main-nav button {
+  border: 0;
+  border-radius: 1em;
+
+  padding: 0 1em;
+  margin-left: .3em;
+}
+@media screen and (max-width: 575px) {
+ .main-nav {
+   flex-direction: column;
+ }
+ .main-nav ul {
+   flex-direction: row; /* Change this to 'column' to stack the links */
+   margin-bottom: 1em;
+ }
+}
+.welcome,
+.discover,
+.order{
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 100em;
+}
+.welcome,
+.discover{
+  flex-direction:row;
+  align-items:flex-end;
+}
+.order{
+  margin:3em 20em;
+  flex-direction:column;
+  align-items:center;
+}
+.welcome ul{
+  order: 1;
+}
+.discover ul{
+  order: 2;
+}
+.discover img{
+  margin:3em 10em;
+}
+.order ul,
+.welcome ul,
+.discover ul{
+  list-style-type: none;
+  align-self: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2.5em;
+  line-height:1em;
+}
+.search,
+.span{
+  font-size: 0.5em;
+}
+.span{
+  color:orange;
+}
+.button{
+  background-color: orange;
+  border: none;
+  border-radius: 1em;
+  color: white;
+  font-size: 0.5em;
+}
+.welcome img {
+  order: 2;
+}
+.discover img {
+  order: 1;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  max-height: 100vh;
+}
+.cards img{
+  margin: 10px ;
+  border: 3px solid #000;
+  box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+  width: 23vw;
+  height:23vw
+}
