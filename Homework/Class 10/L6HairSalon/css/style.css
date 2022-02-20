@@ -1,0 +1,158 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+/*html element font-size should set this to 62.5%
+/* so that the measure of 1rem=10px, 2rem=20 */
+html{
+  background-color: white;
+  font-size: 16px;
+  line-height:24px;
+  font-family: Times, 'Times New Roman', serif;   
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+/******************************************
+/* LAYOUT
+/*******************************************/
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.main-nav {
+  display: flex;
+  border-radius: .3em;
+  padding: 1em;
+}
+.main-nav ul{
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex: 3;
+}
+.main-nav li {
+  margin-right: 1em;
+}
+.main-nav > form {
+  display: flex;
+  justify-content: flex-end;
+  flex: 0.01;
+}
+.main-nav input {
+  flex: 0.01;
+}
+.main-nav button {
+  border: 0;
+  border-radius: 1em;
+
+  padding: 0 1em;
+  margin-left: .3em;
+}
+@media screen and (max-width: 575px) {
+ .main-nav {
+   flex-direction: column;
+ }
+ .main-nav ul {
+   flex-direction: row; /* Change this to 'column' to stack the links */
+   margin-bottom: 1em;
+ }
+}
+.welcome,
+.discover,
+.order,
+.para{
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 100em;
+}
+.welcome,
+.discover,
+.para{
+  flex-direction:row;
+  align-items:flex-end;
+  margin:3em 10em;
+  order: 1;
+  align-self: center;
+}
+.order{
+  margin:3em 20em;
+  flex-direction:column;
+  align-items:center;
+}
+.welcome{
+  background-color: rgb(94, 79, 109);
+  color: white;
+}
+.welcome ul{
+  order: 1;
+}
+.order ul,
+.welcome ul{
+  list-style-type: none;
+  align-self: center;
+  
+  font-size: 2.5em;
+  line-height:1em;
+}
+.search,
+.span{
+  font-size: 0.5em;
+}
+.searchs{
+  font-size: 0.4em;
+}
+.span{
+  color:white;
+  line-height:1em;
+  background-color: black;
+}
+.button{
+  background-color: black;
+  border: none;
+  line-height:2em;
+
+  color: white;
+  font-size: 0.5em;
+}
+.welcome img {
+  order: 2;
+  align-self: center;
+}
+
+
+.cards{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  max-height: 100vh;
+  margin:3em 10em;
+}
+.cards img{
+  border: 3px solid #000;
+  box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+  width: auto;
+  height: auto;
+}
+button{
+  background-color: black;
+  border: none;
+  color: white;
+}

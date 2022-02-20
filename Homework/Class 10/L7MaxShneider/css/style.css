@@ -1,0 +1,85 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+/*html element font-size should set this to 62.5%
+/* so that the measure of 1rem=10px, 2rem=20 */
+html{
+  background-color: white;
+  font-size: 24px;
+  line-height:35px;
+  color:grey;
+  font-family: Times, serif;   
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  height: 55px;
+}
+nav *{
+  float: left;
+  width:15%;
+  list-style-type: none;
+}
+nav ul{
+  width: 100%;
+}
+nav a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  color:grey;
+}
+main > section{
+  margin-left: 10%;
+}
+main > section img{
+  width: 49%;
+  height: auto;
+  float: right;
+  margin-left:10%;
+}
+main + section > section{
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 20%;
+  border: 0.05em solid white;
+  float: left;
+}
+main + section > section img{
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 45px;
+  height: auto;
+}
+footer{
+  clear: both;
+  margin-top: 35%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
