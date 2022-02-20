@@ -1,0 +1,62 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif
+}
+.flex-container{
+  /* have to add a height to work with FB cross axis of row which is obviously down using align-items*/
+  /* height:600px; */
+  /* flex-direction: row; */
+
+  display: flex;/* sets it to FlexBox */
+  flex-direction: row;
+  background-color: grey;
+
+  /* pertains to main axis which may be horizontal where flex-direction = row or vertical where flex-direction = column and can be set to (1) end (2) start (3) center (4) space-around (5)space-between*/
+  justify-content: start;
+
+  /* pertains to cross axis values may be horizontal where flex-direction = row or vertical where flex-direction = column and can be set to (1) end (2) start (3) center (4) */
+  align-items: start;
+  flex-wrap: wrap;
+
+}
+
+.item{
+  /* width: 100px; */
+  /* flex-basis:300px; */
+  /*made up of flex-grow=1;flex-shrink=0;flex-base=100px*/
+  flex: 1 0 100px;
+  height: 100px;
+  background: blue;
+  margin: 10px;
+
+  display: flex;/* sets it to FlexBox */
+  flex-direction: row;
+
+
+  /* pertains to main axis which may be horizontal where flex-direction = row or vertical where flex-direction = column and can be set to (1) end (2) start (3) center (4) space-around (5)space-between*/
+  justify-content: center;
+
+  /* pertains to cross axis values may be horizontal where flex-direction = row or vertical where flex-direction = column and can be set to (1) end (2) start (3) center (4) */
+  align-items: center;
+  color: white;
+}
+.item:nth-of-type(1){
+  /* align-self:start; */
+  /* order:3; */
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+}
+.item:nth-of-type(2){
+  /* align-self:center; */
+  /* order:1; */
+  /* flex-basis:200px; */
+  /* flex-shrink: 2; */
+}
+.item:nth-of-type(3){
+  /* align-self:end; */
+  /* order:2; */
+  /* flex-shrink: 3; */
+}
