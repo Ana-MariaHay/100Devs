@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: black;
+  background: white;
+}
+img {
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 30px;
+}
+
+.navbar {
+  background: grey;
+  color: #fff;
+  height: 60px;
+}
+
+.navbar .logo {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar
+.boxsmall {
+  color: rgb(0, 0, 0);
+}
+
+.navbar a:hover {
+  color: lightgrey;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.header {
+  background-color: grey;
+  color: white;
+  min-height: 400px;
+  text-align: center;
+}
+
+.footer {
+  background-color: rgb(24, 14, 14);
+  color: white;
+  min-height: 200px;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.why {
+  background-color: white;
+  color: black;
+  min-height: 400px;
+  text-align: center;
+}
+
+.why h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.header h2 {
+padding: 40px;
+}
+
+.header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.boxes .container {
+  background: #6f7074;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  background: #6f7074;
+  color: black;
+  border-radius: 10px;
+  margin: 20px 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.boxsmall {
+  background: #f4f5f7;
+  color: black;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 20px 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  padding: 15px 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .boxes .container {
+    display: block;
+  }
+}
